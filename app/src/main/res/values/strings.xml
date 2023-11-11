@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Checklist</string>
+    <string name="create_btn">Create a new checklist</string>
+    <string name="checklist_name_hint">Checklist name</string>
+    <string name="checklist_item_hint">New item</string>
+    <string name="delete_btn">Delete this checklist</string>
+    <string name="delete_item_btn">Delete this item</string>
+    <string name="add_item_btn">Add new item</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom values for Dark theme -->
+    <style name="activityBackground" parent="Theme.Checklist">
+        <item name="android:background">@color/dark</item>
+    </style>
+
+    <style name="itemBackground" parent="Theme.Checklist">
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:backgroundTint">@color/light_dark</item>
+    </style>
+
+    <style name="listItemDelBtn" parent="Theme.Checklist">
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:tint">@color/light_1</item>
+    </style>
+
+    <style name="AddBtn" parent="Theme.Checklist">
+        <item name="android:src">@drawable/baseline_add_24</item>
+        <item name="tint">@color/dark</item>
+    </style>
+
+    <style name="DelFab" parent="Theme.Checklist">
+        <item name="android:src">@drawable/baseline_delete_24</item>
+        <item name="backgroundTint">@color/light_red</item>
+        <item name="tint">@color/white</item>
+    </style>
+</resources>
